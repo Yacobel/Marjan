@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="contaner">
+        <nav>
+          <div class="logo">
+            <div class="home">
+              <a href="index.html" style="position: relative">
+                <div class="traingle"></div>
+                <div class="main-hom" href=""></div>
+              </a>
+            </div>
+            <div class="mobile-logo">
+              <a href="">
+                <img src="./style/image/logo-marjane-mobile.webp" alt="" />
+              </a>
+            </div>
+            <div class="secend">
+              <a href="index2.html">
+                <img src="./style/image/logo_marjane.svg" alt="" />
+              </a>
+            </div>
+            <div class="friste">
+              <a href="">
+                <img src="./style/image/logo_marjane_market.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="input">
+            <svg
+              style="
+                font-size: 12px;
+                color: #cf4d12;
+                position: absolute;
+                top: 50%;
+                left: 0px;
+                transform: translate(50%, -50%);
+              "
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6 2.007a4 4 0 100 8 4 4 0 000-8zm-6 4a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 010 6.007z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <input placeholder="recgerche une prodouit" type="search" />
+            <svg
+              style="
+                color: #cf4d12;
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translate(50%, -50%);
+              "
+              left
+              width="1em"
+              height="1em"
+              viewBox="0 0 20 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 3a3 3 0 013-3h1.5a1 1 0 010 2H3a1 1 0 00-1 1v1.5a1 1 0 01-2 0V3zm14.5-2a1 1 0 011-1H17a3 3 0 013 3v1.5a1 1 0 01-2 0V3a1 1 0 00-1-1h-1.5a1 1 0 01-1-1zM1 12.5a1 1 0 011 1V15a1 1 0 001 1h1.5a1 1 0 010 2H3a3 3 0 01-3-3v-1.5a1 1 0 011-1zm18 0a1 1 0 011 1V15a3 3 0 01-3 3h-1.5a1 1 0 010-2H17a1 1 0 001-1v-1.5a1 1 0 011-1zM4 3.75a1 1 0 011 1v8.5a1 1 0 11-2 0v-8.5a1 1 0 011-1zm5 1a1 1 0 00-2 0v8.5a1 1 0 102 0v-8.5zm3-1a1 1 0 011 1v8.5a1 1 0 01-2 0v-8.5a1 1 0 011-1zm5 1a1 1 0 00-2 0v8.5a1 1 0 002 0v-8.5z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="ul-nav">
+            <ul>
+              <div class="navli">
+                <li>
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 9v-.857c0-1.364.527-2.672 1.464-3.637A4.93 4.93 0 0115 3a4.93 4.93 0 013.535 1.506A5.218 5.218 0 0120 8.143V9M23.26 9.937h0a1.344 1.344 0 011.336 1.204h0l1.579 15s0 0 0 0a1.345 1.345 0 01-1.337 1.484h0H5.463h0a1.345 1.345 0 01-1.337-1.484s0 0 0 0l1.58-15a1.344 1.344 0 011.336-1.204h16.217z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11.4 14.562a3.75 3.75 0 007.5 0v-.937a.937.937 0 111.875 0v.937a5.625 5.625 0 11-11.25 0v-.937a.937.937 0 111.875 0v.937z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  courses en ligne
+                </li>
+                <li>
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 30 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="15"
+                      cy="15.5"
+                      r="11"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    ></circle>
+                    <path
+                      d="M11.196 9.56c1.176 0 2.124.948 2.124 2.136a2.12 2.12 0 01-2.124 2.124 2.123 2.123 0 01-2.136-2.124c0-1.188.948-2.136 2.136-2.136zm7.668 11.94a2.13 2.13 0 01-2.124-2.136 2.12 2.12 0 012.124-2.124A2.13 2.13 0 0121 19.364a2.14 2.14 0 01-2.136 2.136zm-8.064.036l-1.8-1.8L19.236 9.5l1.8 1.8L10.8 21.536z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  promotion
+                </li>
+                <li>
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.25 7.188c0-1.213.933-2.125 2-2.125h21c1.065 0 2 .912 2 2.125v15.625c0 1.21-.936 2.125-2 2.125h-21c-1.066 0-2-.915-2-2.125V7.188z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      d="M9 17.583v3.743c0 .146.021.172.156.172.763 0 1.526-.001 2.289.002.104 0 .136-.041.136-.143-.002-.426 0-.853 0-1.28-.002-.81-.008-1.619-.003-2.43 0-.158.02-.326.073-.473a.993.993 0 01.36-.474.965.965 0 01.646-.187c.168.012.34.047.486.151.188.133.346.297.402.529.043.174.053.36.054.54.004 1.145.002 2.289.002 3.433 0 .055.003.11.008.166.015.154.025.165.175.165h2.268c.19 0 .194-.006.194-.206v-3.334c0-.133-.002-.265 0-.398.008-.341.133-.626.399-.832a1 1 0 01.427-.192c.316-.064.589.01.835.208.277.224.375.536.375.89v3.687c0 .157.016.177.16.177h2.268c.129 0 .14-.014.14-.157 0-1.093.009-2.186-.002-3.279-.007-.708.057-1.42-.05-2.125a3.272 3.272 0 00-.131-.606 3.788 3.788 0 00-.301-.643 2.126 2.126 0 00-.964-.888c-.245-.11-.507-.187-.765-.267-.182-.057-.25-.013-.318.171a.188.188 0 01-.01.03c-.174.288-.34.58-.567.828a3.92 3.92 0 01-.88.743c-.275.166-.57.296-.875.388-.283.083-.566.14-.858.147a6.547 6.547 0 01-.53-.003 2.267 2.267 0 01-.45-.06c-.208-.056-.412-.134-.616-.208a3.382 3.382 0 01-.911-.53 3.658 3.658 0 01-1.012-1.232c-.045-.089-.104-.119-.2-.118-.75.004-1.499.003-2.248.003-.148 0-.161.013-.161.17L9 17.584zm8.701-5.69c.005-1.714-1.373-2.9-2.78-2.893-1.541.008-2.946 1.406-2.741 3.246.148 1.334 1.297 2.613 2.915 2.525 1.486-.081 2.627-1.412 2.606-2.878z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  cart marjan
+                </li>
+                <li>
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#holding-empty_svg__clip0_1872_2060)">
+                      <path
+                        d="M15.542 6.958A1.042 1.042 0 0014.5 5.917h-3.125V1.75A1.041 1.041 0 0010.334.708H2A1.042 1.042 0 00.96 1.75v13.542h14.583V6.958z"
+                        fill="#67666B"
+                      ></path>
+                      <path
+                        d="M10.334 1.75H2v12.5h8.334V1.75zM14.5 6.958h-3.125v7.292H14.5V6.958z"
+                        fill="#fff"
+                      ></path>
+                      <path
+                        d="M4.084 3.833h1.041v2.084H4.084V3.833zm0 3.125h1.041v2.084H4.084V6.958zm3.125-3.125H8.25v2.084H7.21V3.833zm0 3.125H8.25v2.084H7.21V6.958zm-3.125 3.125h1.041v2.084H4.084v-2.084zm3.125 0H8.25v2.084H7.21v-2.084z"
+                        fill="#67666B"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="holding-empty_svg__clip0_1872_2060">
+                        <path
+                          fill="#fff"
+                          transform="translate(.75 .5)"
+                          d="M0 0h15v15H0z"
+                        ></path>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  group
+                </li>
+                <li class="mega-menu">
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 23 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 16h20M1.5 1h20-20zm0 7.5h20-20z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  menu
+                </li>
+              </div>
+              <div class="profile">
+                <div class="man"></div>
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 19 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.791.619A1.14 1.14 0 00.996.94c-.211.206-.33.485-.33.777 0 .29.119.57.33.776.21.206.497.322.795.322h1.373l.343 1.341.011.047 1.528 5.962-1.005.98c-1.417 1.383-.414 3.748 1.59 3.748h9.66c.299 0 .585-.116.796-.322.211-.205.33-.485.33-.776 0-.291-.119-.57-.33-.776a1.139 1.139 0 00-.796-.322h-9.66l1.126-1.098h7.41c.208 0 .413-.057.59-.164.178-.107.322-.26.415-.443l3.375-6.589a1.077 1.077 0 00-.049-1.067c-.1-.16-.241-.291-.409-.382a1.147 1.147 0 00-.547-.14H5.482l-.35-1.364a1.096 1.096 0 00-.399-.6A1.143 1.143 0 004.041.62h-2.25zm14.625 17.02c0 .436-.177.855-.494 1.164a1.709 1.709 0 01-1.193.482c-.448 0-.877-.173-1.193-.482a1.627 1.627 0 01-.495-1.165c0-.437.178-.856.495-1.165a1.709 1.709 0 011.193-.482c.448 0 .877.174 1.193.483.317.308.494.727.494 1.164zM5.73 19.284c.447 0 .876-.173 1.193-.482.316-.31.494-.728.494-1.165 0-.437-.178-.856-.494-1.165a1.709 1.709 0 00-1.193-.482c-.448 0-.877.174-1.194.483a1.627 1.627 0 00-.494 1.164c0 .437.178.856.494 1.165.317.309.746.482 1.194.482z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="secend-container">
+        <div class="main-slide">
+          <div class="all-info">
+            <div class="frist-slide">
+              <div class="info">
+                <div class="more-info">
+                  <p>connectez-vous et bénéficiez d'avantages exclusifs !</p>
+                  <button type="button">je m'identifie</button>
+                </div>
+                <div class="img">
+                  <img src="./style/image/habillage.webp" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="secend-slid">
+              <img src="./style/image/fliere-m-page-d'accueil-55.png" alt="" />
+            </div>
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="./style/image/Banner Avec CTA copy 2.png" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./style/image/flach.png" />
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./style/image/TRIA 790x368.png" />
+            </div>
+            <div class="mySlides fade">
+              <img src="./style/image/ARIEL 790x368.png" />
+            </div>
+            <div class="mySlides fade">
+              <img src="./style/image/HAIER SLIDER MAJ.jpg" />
+            </div>
+          </div>
+          <br />
+
+          <div style="text-align: center; width: 50px; display: none">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+          <div id="dotsContainer" style="display: none"></div>
+        </div>
+      </div>
+      <div class="product-section">
+        <div class="heder">
+          <h3>courses en ligne</h3>
+          <div class="voir">
+            <a href="#">voir tout</a>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="producta">
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+          <div class="productes">
+            <div class="image">
+              <img src="./style/image/3.webp" alt="" />
+            </div>
+            <div class="info"><a href="">Produits laitiers,</a></div>
+          </div>
+        </div>
+        <div class="carde">
+          <div class="secende-card">
+            <img src="./style/image/bannières-dépliant.png" alt="" />
+          </div>
+          <div class="friste-card">
+            <img src="./style/image/marjane-janv-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="exclusive">
+        <div class="comtainer-card">
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/bayd.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>oeufs frais gros calibre x 30 environ 1,850 Kg - MATINALES</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/nut.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>oeufs frais gros calibre x 30 environ 1,850 Kg - MATINALES</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/bla.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>Essuie tout comfort x1 - SELPAK</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/zit.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>Huile d'olive extra vierge bio 2L - FILIERE M</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="equipement">
+        <!-- heeer -->
+
+        <div class="carde">
+          <div class="secende-card">
+            <img src="./style/image/Découvrez nos promos.png" alt="" />
+          </div>
+          <div class="friste-card">
+            <img src="./style/image/11.png" alt="" />
+          </div>
+        </div>
+        <div class="heder">
+          <h3>Top Promotions</h3>
+          <div class="voir">
+            <a href="#">voir tout</a>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="exclusive">
+        <div class="comtainer-card">
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/bahya.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>oeufs frais gros calibre x 30 environ 1,850 Kg - MATINALES</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/fufy.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>oeufs frais gros calibre x 30 environ 1,850 Kg - MATINALES</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/salim.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>Essuie tout comfort x1 - SELPAK</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/sara.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>Huile d'olive extra vierge bio 2L - FILIERE M</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="equipement">
+        <div class="carde">
+          <div class="secende-card">
+            <img src="./style/image/10-ar-v3.png" alt="" />
+          </div>
+          <div class="friste-card">
+            <img src="./style/image/20-fr.png" alt="" />
+          </div>
+        </div>
+        <div class="heder">
+          <h3>Fruits de saison</h3>
+          <div class="voir">
+            <a href="#">voir tout</a>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="exclusive">
+        <div class="comtainer-card">
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/xahdiya.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>oeufs frais gros calibre x 30 environ 1,850 Kg - MATINALES</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/green.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>oeufs frais gros calibre x 30 environ 1,850 Kg - MATINALES</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/pamp.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>Essuie tout comfort x1 - SELPAK</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="tag" src="./style/image/tag_10.png" alt="" />
+              <img src="./style/image/red.webp" alt="" />
+            </div>
+            <button type="button"><i class="fa-solid fa-plus"></i></button>
+            <h4>Huile d'olive extra vierge bio 2L - FILIERE M</h4>
+            <div class="prix">
+              <div class="maine-prix">
+                <span>55,70dh</span>
+              </div>
+              <div class="cart-marjan">
+                <img src="./style/image/card-marjane.png" alt="" />
+                <span>+5,57 dh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="maile-li">
+          <h3>information legales</h3>
+          <ul>
+            <li><a href="">engagements marjane</a></li>
+            <li><a href="">cgu & cgv</a></li>
+            <li><a href="">information legales</a></li>
+          </ul>
+        </div>
+        <div class="maile-li">
+          <h3>a propos</h3>
+          <ul>
+            <li><a href="">marjan group</a></li>
+            <li><a href="">recructement</a></li>
+            <li><a href="">fidelite</a></li>
+            <li><a href="">sav</a></li>
+          </ul>
+        </div>
+        <div class="maile-li">
+          <h3>besoin d'aide ?</h3>
+          <ul>
+            <li><a href="">nous contacter</a></li>
+          </ul>
+        </div>
+        <div class="maile-li">
+          <h3>Téléchargez notre appli</h3>
+          <p>
+            Avec l'application Marjane, vous pouvez faire vos achats encore plus
+            rapidement.
+          </p>
+          <ul class="social"></ul>
+          <ul class="social-1">
+            <h3>marjane</h3>
+            <li><img src="./style/image/facebook.svg" alt="" /></li>
+            <li><img src="./style/image/instagram.svg" alt="" /></li>
+            <li><img src="./style/image/LinkedIn.svg" alt="" /></li>
+            <li><img src="./style/image/Youtube.svg" alt="" /></li>
+          </ul>
+          <ul class="social-1">
+            <h3>Marjane Market</h3>
+            <li><img src="./style/image/facebook.svg" alt="" /></li>
+            <li><img src="./style/image/instagram.svg" alt="" /></li>
+            <li><img src="./style/image/LinkedIn.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
